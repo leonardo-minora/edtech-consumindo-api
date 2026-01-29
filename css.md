@@ -181,7 +181,7 @@ h1 {
 ### Explicação:
 
 **Seletor de ID (`#taskInput`)**
-- O hashtag (`#`) indica um ID
+- O símbolo hash (`#`) indica um ID
 - Aplica-se a elementos com `id="taskInput"`
 - IDs devem ser únicos na página
 
