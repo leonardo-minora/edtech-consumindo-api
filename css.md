@@ -10,6 +10,36 @@ CSS (Cascading Style Sheets) é a linguagem que usamos para estilizar páginas H
 
 ---
 
+## 📋 Sumário
+
+1. [Reset CSS e Box Model](#1-reset-css-e-box-model)
+2. [Estilização do Body](#2-estilização-do-body)
+3. [Container Principal](#3-container-principal)
+4. [Títulos](#4-títulos)
+5. [Flexbox - Container do Formulário](#5-flexbox---container-do-formulário)
+6. [Input de Tarefa](#6-input-de-tarefa)
+7. [Estado de Foco (Focus)](#7-estado-de-foco-focus)
+8. [Botões](#8-botões)
+9. [Hover - Efeitos ao Passar o Mouse](#9-hover---efeitos-ao-passar-o-mouse)
+10. [Cores dos Botões](#10-cores-dos-botões)
+11. [Container de Tarefas](#11-container-de-tarefas)
+12. [Item de Tarefa](#12-item-de-tarefa)
+13. [Hover em Tarefas](#13-hover-em-tarefas)
+14. [Estado de Tarefa Completada](#14-estado-de-tarefa-completada)
+15. [Texto da Tarefa Completada](#15-texto-da-tarefa-completada)
+16. [Propriedades Flex](#16-propriedades-flex)
+17. [Container de Ações](#17-container-de-ações)
+18. [Botões de Ação (Editar e Deletar)](#18-botões-de-ação-editar-e-deletar)
+19. [Checkbox Personalizado](#19-checkbox-personalizado)
+20. [Estilos de Estados](#20-estilos-de-estados)
+21. [Media Queries - Responsividade](#21-media-queries---responsividade)
+22. [🎯 Conceitos Principais Aprendidos](#conceitos-principais-aprendidos)
+23. [💡 Dicas para Praticar](#dicas-para-praticar)
+24. [📚 Recursos para Continuar Aprendendo](#recursos-para-continuar-aprendendo)
+25. [✅ Conclusão](#conclusão)
+
+---
+
 ## 1. Reset CSS e Box Model
 
 ```css
