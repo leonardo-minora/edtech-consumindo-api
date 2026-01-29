@@ -33,10 +33,10 @@ CSS (Cascading Style Sheets) é a linguagem que usamos para estilizar páginas H
 19. [Checkbox Personalizado](#19-checkbox-personalizado)
 20. [Estilos de Estados](#20-estilos-de-estados)
 21. [Media Queries - Responsividade](#21-media-queries---responsividade)
-22. [🎯 Conceitos Principais Aprendidos](#-conceitos-principais-aprendidos)
-23. [💡 Dicas para Praticar](#-dicas-para-praticar)
-24. [📚 Recursos para Continuar Aprendendo](#-recursos-para-continuar-aprendendo)
-25. [✅ Conclusão](#-conclusão)
+22. [🎯 Conceitos Principais Aprendidos](#conceitos-principais-aprendidos)
+23. [💡 Dicas para Praticar](#dicas-para-praticar)
+24. [📚 Recursos para Continuar Aprendendo](#recursos-para-continuar-aprendendo)
+25. [✅ Conclusão](#conclusão)
 
 ---
 
