@@ -265,6 +265,10 @@ button {
     background: #5568d3;
     transform: translateY(-2px);
 }
+
+#cancelBtn:hover {
+    background: #c0392b;
+}
 ```
 
 ### Explicação:
@@ -273,12 +277,17 @@ button {
 - Aplica estilos quando o mouse está sobre o elemento
 - Cria interatividade visual
 
-**`transform: translateY(-2px)`**
-- Move o elemento 2 pixels para cima
+**Efeito de Levitação (`#addBtn`)**
+- `transform: translateY(-2px)`: Move o elemento 2 pixels para cima
 - `translateY`: translação no eixo Y (vertical)
 - Valores negativos: para cima
 - Valores positivos: para baixo
 - Cria um efeito de "levitação"
+
+**Mudança de Cor Simples (`#cancelBtn`)**
+- Apenas muda a cor de fundo para um tom mais escuro
+- Nem todos os botões precisam do efeito de levitação
+- Simplicidade também é efetiva!
 
 ---
 
@@ -412,8 +421,8 @@ button {
 
 **`text-decoration: line-through`**
 - Adiciona uma linha atravessando o texto
-- ~~assim~~
-- Outras opções: `underline`, `overline`, `none`
+- Cria um efeito de "riscado" no texto
+- Outras opções: `underline` (sublinhado), `overline` (linha acima), `none` (sem decoração)
 
 ---
 
@@ -454,7 +463,53 @@ button {
 
 ---
 
-## 18. Checkbox Personalizado
+## 18. Botões de Ação (Editar e Deletar)
+
+```css
+.edit-btn, .delete-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.edit-btn {
+    background: #3498db;
+    color: white;
+}
+
+.edit-btn:hover {
+    background: #2980b9;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+```
+
+### Explicação:
+
+**Estilos Compartilhados**
+- `.edit-btn, .delete-btn`: aplica estilos comuns a ambos
+- Padding e font-size menores que os botões principais
+- Mantém consistência visual
+
+**Cores Semânticas**
+- Azul (`#3498db`) para editar: ação neutra/informativa
+- Vermelho (`#e74c3c`) para deletar: ação destrutiva/perigosa
+- As cores ajudam o usuário a entender o que cada botão faz
+
+**Efeitos Hover**
+- Escurecem a cor no hover
+- Feedback visual imediato
+- Confirma que o botão é clicável
+
+---
+
+## 19. Checkbox Personalizado
 
 ```css
 .task-item input[type="checkbox"] {
@@ -473,7 +528,7 @@ button {
 
 ---
 
-## 19. Estilos de Estados
+## 20. Estilos de Estados
 
 ```css
 .loading, .empty {
@@ -497,7 +552,7 @@ button {
 
 ---
 
-## 20. Media Queries - Responsividade
+## 21. Media Queries - Responsividade
 
 ```css
 @media (max-width: 600px) {
